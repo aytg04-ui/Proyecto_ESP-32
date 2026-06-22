@@ -278,7 +278,7 @@ def correr_deep():
 # ═══════════════════════════════════════════════
 #  ARRANQUE
 # ═══════════════════════════════════════════════
-luz(True)
+ui.luz(True)
 ui_msg("PIF NODE", NODE_ID + "  " + MODO, VERDE, CYAN)
 time.sleep(1.5)
 SEN.detectar()
